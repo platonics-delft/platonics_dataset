@@ -1,0 +1,11 @@
+pre_slider:
+  action_name: lfdExecuteSequence
+  skill_names:
+    - blue_button
+    - slider_pre
+slider_stage_1:
+  action_name: solveSlider
+  task_stage: 1
+slider_stage_2:
+  action_name: solveSlider
+  task_stage: 2
