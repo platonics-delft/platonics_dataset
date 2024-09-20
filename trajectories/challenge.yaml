@@ -1,0 +1,21 @@
+pre_slider:
+  action_name: lfdExecuteSequence
+  skill_names:
+    - blue_button
+slider_stage_1:
+  action_name: solveSlider
+  task_stage: 1
+slider_stage_2:
+  action_name: solveSlider
+  task_stage: 2
+second_skill:
+  action_name: lfdExecuteSequence
+  skill_names:
+    - peg_pick
+    - peg_door
+    - peg_place
+    - probe_pick
+    - probe_probe
+    - probe_place
+    - wrap
+    - red_button
